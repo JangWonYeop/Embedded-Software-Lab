@@ -1,0 +1,5 @@
+int main( )
+{
+*(char *)0x3A = 0xff;
+*(char *)0x3B = 0xff;
+}
